@@ -1,20 +1,16 @@
-# Rademacher HomePilot Python Package
+# pyhomepilot
 Python package for communicating with the Rademacher HomePilot API.
+
+## Disclaimer
+
+HomePilot is a trademark of the Rademacher company. Rademacher is not affiliated with the author or this project in any way.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install homepilot.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyhomepilot.
 
 ```bash
-pip install homepilot
-```
-
-### Requirements
-
-This package also requires [aiohttp](https://docs.aiohttp.org/en/stable/).
-
-```bash
-pip install aiohttp
+pip install pyhomepilot
 ```
 
 ## Usage
@@ -23,8 +19,8 @@ pip install aiohttp
 import asyncio
 import aiohttp
 
-from homepilot import HomePilotAPI
-from homepilot.auth import Auth
+from pyhomepilot import HomePilotAPI
+from pyhomepilot.auth import Auth
 
 
 async def main():

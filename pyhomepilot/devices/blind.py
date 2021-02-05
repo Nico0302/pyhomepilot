@@ -11,7 +11,7 @@ from .actuator import Actuator
 
 
 class Blind(Actuator):
-    """Class that represents an Blind object in the pyhomepilot API."""
+    """Class that represents an Blind object in the HomePilot API."""
 
     def __init__(self, *args, **kwargs):
         """Initialize an blind object."""

@@ -2,7 +2,7 @@ from pyhomepilot.auth import Auth
 
 
 class Device:
-    """Class that represents a Device object in the pyhomepilot API."""
+    """Class that represents a Device object in the HomePilot API."""
 
     def __init__(self, raw_data: dict, auth: Auth):
         """Initialize a device object."""

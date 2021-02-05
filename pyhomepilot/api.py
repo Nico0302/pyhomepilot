@@ -14,7 +14,7 @@ ACTUATOR_CLASS = {
 
 
 class HomePilotAPI:
-    """Class to communicate with the Rademacher pyhomepilot API."""
+    """Class to communicate with the Rademacher HomePilot API."""
 
     def __init__(self, auth: Auth):
         """Initialize the API and store the auth so we can make requests."""

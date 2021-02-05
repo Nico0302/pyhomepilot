@@ -4,6 +4,7 @@ from enum import Enum
 class DeviceGroup(Enum):
     BLIND = 2
 
+
 # Commands
 POS_UP_CMD = "POS_UP_CMD"
 POS_DOWN_CMD = "POS_DOWN_CMD"

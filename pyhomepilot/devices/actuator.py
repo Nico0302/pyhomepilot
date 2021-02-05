@@ -3,7 +3,7 @@ from .device import Device
 
 
 class Actuator(Device):
-    """Class that represents an Actuator object in the pyhomepilot API."""
+    """Class that represents an Actuator object in the HomePilot API."""
 
     def __init__(self, *args, **kwargs):
         """Initialize an actuator object."""

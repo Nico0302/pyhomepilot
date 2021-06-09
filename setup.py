@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyhomepilot",
-    version="0.0.2",
+    version="0.0.3",
     author="Nicolas Gres",
     author_email="nicolas@gres.io",
     description="Unofficial Rademacher HomePilot API wrapper",

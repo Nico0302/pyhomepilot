@@ -10,6 +10,7 @@ setuptools.setup(
     author="Nicolas Gres",
     author_email="nicolas@gres.io",
     description="Unofficial Rademacher HomePilot API wrapper",
+    license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/nico0302/pyhomepilot",
